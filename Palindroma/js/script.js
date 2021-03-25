@@ -27,7 +27,7 @@ function isPalindroma(parolaInserita) {
     var isParolaPalindroma = false;
     //console.log('Dentro alla funzione:', parolaInserita);
 
-    // Scorro la parola al contrario e pusho le lettere in un array
+    // Scorro la parola al contrario e metto le lettere in parolaReverse
     var parolaReverse = '';
     for (var i = parolaInserita.length - 1; i >= 0; i--) {
         var thisLettera = parolaInserita[i];
