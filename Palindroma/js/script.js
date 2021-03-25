@@ -39,5 +39,5 @@ function isPalindroma(parolaInserita) {
         isParolaPalindroma = true;
     }
 
-    return isParolaPalindroma
+    return isParolaPalindroma;
 }
