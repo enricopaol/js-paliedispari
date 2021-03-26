@@ -6,7 +6,7 @@
 // Chiedo all'utente se sceglie pari o dispari
 var sceltaUtente = prompt('Pari o dispari?');
 sceltaUtente = validazionePariDispari(sceltaUtente); // Richiamo la funzione per validare la scelta
-console.log('Scelta utente', sceltaUtente)
+console.log('Scelta utente', sceltaUtente);
 
 // Chiedo al'utente di scegliere un numero da 1 a 5
 var numeroUtente = parseInt(prompt('Scegli un numero da 1 a 5.'));
@@ -28,7 +28,7 @@ console.log(sommaNumeri);
 
 // Controllo se la somma è pari o dispari
 var esito = isSommaPariDispari(sommaNumeri);
-console.log('esito', esito)
+console.log('esito', esito);
 
 // Stampo l'esito
 var numeriInGioco = 'Numero scelto: ' + numeroUtente + ' | ' + 'Numero computer: ' + numeroComputer;
